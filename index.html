@@ -1,9 +1,23 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <title>This is the title of the webpage!</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Hw10</title>
+    <meta property="og:title" content="Hw10" />
+    <meta charset="utf-8" />
+    <meta property="og:type" content="article" />
+
+    <meta property="og:description" content="Short description of your project" />
+    <meta property="description" content="Short description of your project" />
+
+    <link rel="stylesheet" href="static/idyll_styles.css" />
   </head>
   <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <div id="idyll-mount"><div data-reactroot=""><div class="idyll-root"><div class=" idyll-text-container"></div><div class="article-header" style="background:#222222;color:#ffffff"><h1 class="hed">Hw10</h1><h2 class="dek">Welcome to Idyll. Open index.idyll to start writing. Here is the code for IS455 HW10</h2><div class="byline">By: <a href="https://idyll-lang.org">Chunhao Shen</a></div><div class="idyll-pub-date">Wed Nov 18 2020</div></div><div class=" idyll-text-container"><h2 id="data">Data</h2><input type="range" value="10" min="0" max="100" step="1"/><span class="idyll-display">10.00</span><div></div><p>Color by:
+  <button>None</button><button>FrozeDay Color</button></p><p><span>I got the data set from <a href="https://vincentarelbundock.github.io/Rdatasets/datasets.html.">https://vincentarelbundock.github.io/Rdatasets/datasets.html.</a> It’s a dataset called Frozen Juice. There are three columns.</span></p><p>It’s a monthly multiple time series from 1950 to 2000. “Price” : Average producer price for frozen orange juice. “ppi” : Producer price index for finished goods. Used to deflate the overall producer price index for finished goods to eliminate the effects of overall price inflation. “fdd” : Number of freezing degree days at the Orlando, Florida, airport. Calculated as the sum of the number of degrees Fahrenheit that the minimum temperature falls below freezing in a given day over all days in the month.</p><p>I’m using this plot to show that the producer price’s link with the final price of the jucie. It’s obvious that in general the higher the producer price is, higher the juice price. But the fronze day in this area will have a effect on the price of producer since the outcome is reduced. So I used a color buttonm to indicates these circumsdances. That’s why I use circle mark since the mark is too crowded to be shown by other marks.</p></div></div></div></div>
+    <script src="static/idyll_index.js"></script>
   </body>
 </html>
